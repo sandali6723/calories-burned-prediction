@@ -13,6 +13,7 @@ The goal of this project is to predict the number of calories burned during a wo
 The system is divided into two dedicated branches to maintain clarity and modularity.
 
 🌿 Branch Structure
+
 🔹 ML model Branch
 
 Focuses on machine learning development.
