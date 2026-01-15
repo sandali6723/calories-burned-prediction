@@ -121,51 +121,6 @@ The model automatically calculates engineered features:
 
 The model will instantly predict your calories burned!
 
-## 🔧 Customization
-
-### Changing Colors
-Edit the CSS variables in `index.html`:
-```css
-:root {
-    --primary: #FF6B35;
-    --secondary: #F7931E;
-    --accent: #FDC830;
-    /* ... */
-}
-```
-
-### Adjusting Model Parameters
-Edit the hyperparameter grid in `train_model.py`:
-```python
-gb_param_grid = {
-    'n_estimators': [100, 200, 300],
-    'learning_rate': [0.01, 0.1, 0.2],
-    'max_depth': [3, 5, 7],
-    'subsample': [0.8, 0.9, 1.0]
-}
-```
-
-### Changing Port
-Edit the last line in `app.py`:
-```python
-app.run(debug=True, host='0.0.0.0', port=5000)  # Change port here
-```
-
-## 🐛 Troubleshooting
-
-### "Model not loaded" Error
-- Make sure you've run `train_model.py` first
-- Check that `calorie_model.pkl` exists in the directory
-- Verify `data_2.csv` is available for training
-
-### CORS Errors
-- Make sure Flask-CORS is installed
-- Check that the frontend is accessing the correct backend URL
-
-### Connection Refused
-- Verify the Flask server is running
-- Check the port number (default: 5000)
-- Ensure no firewall is blocking the connection
 
 ## 📦 File Structure
 
@@ -179,25 +134,5 @@ app.run(debug=True, host='0.0.0.0', port=5000)  # Change port here
 └── calorie_model.pkl    # Trained model (generated)
 ```
 
-## 🎯 Future Enhancements
-
-- Add data visualization charts
-- Include workout history tracking
-- Implement user accounts and profiles
-- Add batch prediction for multiple workouts
-- Export predictions to CSV/PDF
-- Mobile app version
-- Integration with fitness trackers
-
-## 📄 License
-
-This project is open source and available for personal and educational use.
-
-## 🙏 Acknowledgments
-
-- Built with Flask, Scikit-learn, and modern web technologies
-- Inspired by fitness tracking and health monitoring applications
-
----
 
 **Enjoy tracking your calories with CaloriBurn!** 🔥💪
