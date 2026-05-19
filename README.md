@@ -1,4 +1,4 @@
-<img width="1917" height="1017" alt="Screenshot 2026-05-20 000132" src="https://github.com/user-attachments/assets/d597ea7f-6ec8-4c6d-ba9f-b44fb0047540" />
+
 🔥 Calories Burn Prediction System
 
 Machine Learning Model & Web Application
