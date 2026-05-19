@@ -32,8 +32,6 @@ Final model selection
 
 Research paper and documentation
 
-👉 This branch produces the trained ML model used by the application.
-
 🔹 app Branch
 
 Focuses on application deployment.
@@ -48,4 +46,4 @@ User interface
 
 Real-time calorie prediction output
 
-👉 This branch consumes the trained model generated in the ML model branch.
+.
